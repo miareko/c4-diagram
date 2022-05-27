@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T04:12:35.055Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="GDM072UDHGC66jkFbrzG" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-27T04:12:48.322Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="Av8wsOaENLUq5GAymZUE" version="18.1.3" type="github">
   <diagram id="vDcrXxZsO2Zhrh5krCH0" name="Page-1">
     <mxGraphModel dx="1325" dy="1129" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -176,8 +176,8 @@
         <mxCell id="konS2STvYljO2ScQWIyr-6" value="vc灰度开关&lt;br&gt;关闭" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#5AA9E6;" vertex="1" parent="1">
           <mxGeometry x="364" y="196" width="70" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="konS2STvYljO2ScQWIyr-7" value="vc灰度开关=uid、供应商、城市" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="753" y="-11" width="247" height="24" as="geometry" />
+        <mxCell id="konS2STvYljO2ScQWIyr-7" value="vc灰度开关=uid、供应商、城市" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;fontSize=17;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="751" y="-11" width="251" height="24" as="geometry" />
         </mxCell>
         <mxCell id="konS2STvYljO2ScQWIyr-11" value="Alt" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;sketch=0;fontColor=#5AA9E6;strokeColor=#FF6392;fillColor=#FFE45E;width=46;height=24;" vertex="1" parent="1">
           <mxGeometry x="120" y="550" width="978" height="204" as="geometry" />
