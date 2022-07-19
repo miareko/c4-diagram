@@ -1,1 +1,132 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T08:19:12.909Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" version="20.0.1" etag="Nfq-4nJZCygc7HEpT27J" type="github"><diagram id="kH8avUsp5-k7odRLKg37">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-19T08:06:35.776Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="5Wv5IidxVUBnqBNuHF1y" version="20.1.1" type="github">
+  <diagram id="kH8avUsp5-k7odRLKg37" name="Page-1">
+    <mxGraphModel dx="977" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="130" y="160" width="20" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="RqbrGwnSNiVoZmfn_DbZ-2">
+          <mxGeometry x="5" y="80" width="10" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-16" value="1、进入首页" style="html=1;verticalAlign=bottom;endArrow=block;rounded=1;sketch=0;curved=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="RqbrGwnSNiVoZmfn_DbZ-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="16" y="90" as="sourcePoint" />
+            <mxPoint x="155.5" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-3" value="前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="RqbrGwnSNiVoZmfn_DbZ-3">
+          <mxGeometry x="45" y="80" width="10" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="RqbrGwnSNiVoZmfn_DbZ-3">
+          <mxGeometry x="50" y="120" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-18" value="2、生成requestId，并缓存下来" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;sketch=0;curved=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="RqbrGwnSNiVoZmfn_DbZ-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="100" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="100" />
+            </Array>
+            <mxPoint x="60" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-19" value="3、传入requestId" style="html=1;verticalAlign=bottom;endArrow=block;rounded=1;sketch=0;curved=0;entryX=-0.229;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="RqbrGwnSNiVoZmfn_DbZ-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="56" y="156" as="sourcePoint" />
+            <mxPoint x="231.71000000000004" y="156.79999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="RqbrGwnSNiVoZmfn_DbZ-3">
+          <mxGeometry x="50" y="340" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-28" value="9、获取缓存requestId" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;sketch=0;curved=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" target="RqbrGwnSNiVoZmfn_DbZ-27" parent="RqbrGwnSNiVoZmfn_DbZ-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-29" value="10、传入requestId" style="html=1;verticalAlign=bottom;endArrow=block;rounded=1;sketch=0;curved=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="RqbrGwnSNiVoZmfn_DbZ-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="56" y="380" as="sourcePoint" />
+            <mxPoint x="234.5" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-5" value="rest服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="429" y="160" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="RqbrGwnSNiVoZmfn_DbZ-5">
+          <mxGeometry x="45" y="140" width="10" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-22" value="4、框架透传requestId" style="html=1;verticalAlign=bottom;endArrow=block;rounded=1;sketch=0;curved=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="RqbrGwnSNiVoZmfn_DbZ-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="55" y="170" as="sourcePoint" />
+            <mxPoint x="206.5" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-30" value="11、框架透传requestId" style="html=1;verticalAlign=bottom;endArrow=block;rounded=1;sketch=0;curved=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="RqbrGwnSNiVoZmfn_DbZ-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="56" y="410" as="sourcePoint" />
+            <mxPoint x="207.5" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-6" value="service服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="592" y="160" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="RqbrGwnSNiVoZmfn_DbZ-6">
+          <mxGeometry x="45" y="160" width="10" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-23" value="5、返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=1;sketch=0;curved=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="357" as="sourcePoint" />
+            <mxPoint x="485" y="357" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="558" y="357" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-24" value="6、返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=1;sketch=0;curved=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="380" as="sourcePoint" />
+            <mxPoint x="294.5" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-25" value="7、返回首页界面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=1;sketch=0;curved=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="284" y="400" as="sourcePoint" />
+            <mxPoint x="143.5" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-26" value="8、进入产品列表页" style="html=1;verticalAlign=bottom;endArrow=block;rounded=1;sketch=0;curved=0;entryX=0.009;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="148" y="470" as="sourcePoint" />
+            <mxPoint x="283.0899999999999" y="470.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-31" value="12、返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=1;sketch=0;curved=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="600" as="sourcePoint" />
+            <mxPoint x="483.5" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-32" value="13、返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=1;sketch=0;curved=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="620" as="sourcePoint" />
+            <mxPoint x="297" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RqbrGwnSNiVoZmfn_DbZ-33" value="14、返回产品列表页界面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=1;sketch=0;curved=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="284" y="640" as="sourcePoint" />
+            <mxPoint x="143.5" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
